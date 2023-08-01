@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background: linear-gradient(
+        to right,
+        rgb(73, 73, 235) 0%,
+        rgb(73, 73, 235) 50%,
+        white 50%,
+        white 100%
+      );
+    width: 65%;
+    height: 82%;
+    display: flex;
+    border-radius: 10px;
+   
+    
+}
+/* ________form-left______ */
+.form-left{
+    /* background-color: rgb(59, 98, 189);
+    border-radius: 10px 0px 0px 10px; */
+    width: 50%;
+    color: white;
+    
+}
+h1,
+p,
+button{
+    margin: 25px;
+}
+h1{
+    text-transform: uppercase;
+}
+.form-left>button{
+    padding: 15px;
+
+}
+/* ____form-right________ */
+.form-right{
+    /* background-color: aliceblue;
+    border-radius: 0px 10px 10px 0px; */
+   width: 50%;
+}
+.form-right>h1{
+    color: rgb(45, 45, 183);
+}
+.username,
+
+.email,
+.password,
+.terms-and-conditions,
+.form-right>button{
+    margin: 0px 25px 25px 0px;
+    margin-left: 15px;
+}
+.lastname,
+.user-confirm-password{
+    margin-left: 15px;
+
+}
+.user-password{
+    margin-right: 15px;
+}
+.username,
+.password{
+    display: flex;
+
+}
+/* .firstname, */
+/* .user-password
+{
+    margin-right:15px ;
+    
+} */
+
+.email{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 15px; */
+}
+input,
+button{
+    padding: 15px;
+}
+
+.form-right>button{
+    width: 30%;
+    background-color: rgb(66, 100, 185);
+    color: white;
+    
+}
+button{
+    border-radius: 10px 0px;
+    border: 1px solid white;
+}
